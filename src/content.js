@@ -4,8 +4,8 @@ const content = {
       name: "Moon",
       image: {
         imageSource: {
-          png: "../../../public/images/destination/image-moon.png",
-          webp: "../../../public/images/destination/image-moon.webp",
+          png: "/images/destination/image-moon.png",
+          webp: "/images/destination/image-moon.webp",
         },
         imageAlt: "A picture of the Earth's moon.",
       },
@@ -18,8 +18,8 @@ const content = {
       name: "Mars",
       image: {
         imageSource: {
-          png: "../../../public/images/destination/image-mars.png",
-          webp: "../../../public/images/destination/image-mars.webp",
+          png: "/images/destination/image-mars.png",
+          webp: "/images/destination/image-mars.webp",
         },
         imageAlt:
           "A picture of the fourth planet in the Milky Way galaxy, Mars.",
@@ -33,8 +33,8 @@ const content = {
       name: "Europa",
       image: {
         imageSource: {
-          png: "../../../public/images/destination/image-europa.png",
-          webp: "../../../public/images/destination/image-europa.webp",
+          png: "/images/destination/image-europa.png",
+          webp: "/images/destination/image-europa.webp",
         },
         imageAlt: "A picture of one of the Jupiter's moons, Europa.",
       },
@@ -47,8 +47,8 @@ const content = {
       name: "Titan",
       image: {
         imageSource: {
-          png: "../../../public/images/destination/image-titan.png",
-          webp: "../../../public/images/destination/image-titan.webp",
+          png: "/images/destination/image-titan.png",
+          webp: "/images/destination/image-titan.webp",
         },
         imageAlt: "A picture of one of the Saturn's moons, Titan.",
       },
@@ -66,8 +66,8 @@ const content = {
         "Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.",
       image: {
         imageSource: {
-          png: "../../../public/images/crew/image-douglas-hurley.png",
-          webp: "../../../public/images/crew/image-douglas-hurley.webp",
+          png: "/images/crew/image-douglas-hurley.png",
+          webp: "/images/crew/image-douglas-hurley.webp",
         },
         imageAlt: "Douglas Hurley holding his hands up.",
       },
@@ -79,8 +79,8 @@ const content = {
         "Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist.",
       image: {
         imageSource: {
-          png: "../../../public/images/crew/image-mark-shuttleworth.png",
-          webp: "../../../public/images/crew/image-mark-shuttleworth.webp",
+          png: "/images/crew/image-mark-shuttleworth.png",
+          webp: "/images/crew/image-mark-shuttleworth.webp",
         },
         imageAlt: "Mark Shuttleworth holding a microphone",
       },
@@ -92,8 +92,8 @@ const content = {
         "Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18. He was a crew member of Expedition 64, and served as a station systems flight engineer. ",
       image: {
         imageSource: {
-          png: "../../../public/images/crew/image-victor-glover.png",
-          webp: "../../../public/images/crew/image-victor-glover.webp",
+          png: "/images/crew/image-victor-glover.png",
+          webp: "/images/crew/image-victor-glover.webp",
         },
         imageAlt: "Portrait shot of Victor Glover in a blue NASA jacket",
       },
@@ -105,8 +105,8 @@ const content = {
         "Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space.",
       image: {
         imageSource: {
-          png: "../../../public/images/crew/image-anousheh-ansari.png",
-          webp: "../../../public/images/crew/image-anousheh-ansari.webp",
+          png: "/images/crew/image-anousheh-ansari.png",
+          webp: "/images/crew/image-anousheh-ansari.webp",
         },
         imageAlt: "Anousheh Ansari holding a microhphone.",
       },
@@ -117,10 +117,8 @@ const content = {
       name: "Launch vehicle",
       image: {
         imageSource: {
-          portrait:
-            "../../../public/images/technology/image-launch-vehicle-portrait.jpg",
-          landscape:
-            "../../../public/images/technology/image-launch-vehicle-landscape.jpg",
+          portrait: "/images/technology/image-launch-vehicle-portrait.jpg",
+          landscape: "/images/technology/image-launch-vehicle-landscape.jpg",
         },
         imageAlt: "Launch vehicle at take-off",
       },
@@ -131,10 +129,8 @@ const content = {
       name: "Spaceport",
       image: {
         imageSource: {
-          portrait:
-            "../../../public/images/technology/image-spaceport-portrait.jpg",
-          landscape:
-            "../../../public/images/technology/image-spaceport-landscape.jpg",
+          portrait: "/images/technology/image-spaceport-portrait.jpg",
+          landscape: "/images/technology/image-spaceport-landscape.jpg",
         },
         imageAlt:
           "Wide shot of a spaceport with workers dresssed in blue working on it.",
@@ -146,10 +142,8 @@ const content = {
       name: "Space capsule",
       image: {
         imageSource: {
-          portrait:
-            "../../../public/images/technology/image-space-capsule-portrait.jpg",
-          landscape:
-            "../../../public/images/technology/image-space-capsule-landscape.jpg",
+          portrait: "/images/technology/image-space-capsule-portrait.jpg",
+          landscape: "/images/technology/image-space-capsule-landscape.jpg",
         },
         imageAlt: "A white space capsule in space.",
       },

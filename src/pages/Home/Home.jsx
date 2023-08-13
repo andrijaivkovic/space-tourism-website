@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 
 import { useMediaQuery } from "../../hooks/useMediaQuery";
 
-import homePageBgPhone from "../../../public/images/home/background-home-mobile.jpg";
-import homePageBgTablet from "../../../public/images/home/background-home-tablet.jpg";
-import homePageBgDesktop from "../../../public/images/home/background-home-desktop.jpg";
+import homePageBgPhone from "/images/home/background-home-mobile.jpg";
+import homePageBgTablet from "/images/home/background-home-tablet.jpg";
+import homePageBgDesktop from "/images/home/background-home-desktop.jpg";
 
 const pageVariants = {
   enter: { scale: 0.98, opacity: 0 },

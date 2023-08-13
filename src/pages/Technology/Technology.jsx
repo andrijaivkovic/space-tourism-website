@@ -5,9 +5,9 @@ import { useMediaQuery } from "../../hooks/useMediaQuery";
 
 import { content } from "../../content";
 
-import techPageBgPhone from "../../../public/images/technology/background-technology-mobile.jpg";
-import techPageBgTablet from "../../../public/images/technology/background-technology-tablet.jpg";
-import techPageBgDesktop from "../../../public/images/technology/background-technology-desktop.jpg";
+import techPageBgPhone from "/images/technology/background-technology-mobile.jpg";
+import techPageBgTablet from "/images/technology/background-technology-tablet.jpg";
+import techPageBgDesktop from "/images/technology/background-technology-desktop.jpg";
 
 const pageVariants = {
   enter: { scale: 0.98, opacity: 0 },

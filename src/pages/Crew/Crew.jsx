@@ -5,9 +5,9 @@ import { useMediaQuery } from "../../hooks/useMediaQuery";
 
 import { content } from "../../content";
 
-import crewPageBgPhone from "../../../public/images/crew/background-crew-mobile.jpg";
-import crewPageBgTablet from "../../../public/images/crew/background-crew-tablet.jpg";
-import crewPageBgDesktop from "../../../public/images/crew/background-crew-desktop.jpg";
+import crewPageBgPhone from "/images/crew/background-crew-mobile.jpg";
+import crewPageBgTablet from "/images/crew/background-crew-tablet.jpg";
+import crewPageBgDesktop from "/images/crew/background-crew-desktop.jpg";
 
 const elementVariants = {
   enter: (direction) => {

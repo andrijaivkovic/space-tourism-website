@@ -3,9 +3,9 @@ import { motion, AnimatePresence } from "framer-motion";
 
 import { useMediaQuery } from "../../hooks/useMediaQuery";
 
-import destinationPageBgPhone from "../../../public/images/destination/background-destination-mobile.jpg";
-import destinationPageBgTablet from "../../../public/images/destination/background-destination-tablet.jpg";
-import destinationPageBgDesktop from "../../../public/images/destination/background-destination-desktop.jpg";
+import destinationPageBgPhone from "/images/destination/background-destination-mobile.jpg";
+import destinationPageBgTablet from "/images/destination/background-destination-tablet.jpg";
+import destinationPageBgDesktop from "/images/destination/background-destination-desktop.jpg";
 
 import { content } from "../../content";
 
