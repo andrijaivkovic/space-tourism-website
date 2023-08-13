@@ -1,0 +1,13 @@
+.page-not-found {
+  @include flex-column;
+  @include flex-center;
+
+  flex-grow: 1;
+
+  gap: 4rem;
+
+  &__logo {
+    height: 10rem;
+    width: 10rem;
+  }
+}

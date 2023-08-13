@@ -3,7 +3,7 @@ import { NavLink, useLocation } from "react-router-dom";
 
 import { useMediaQuery } from "../../hooks/useMediaQuery";
 
-import logo from "../../../public/images/logo.svg";
+import logo from "/images/logo.svg";
 
 import HamburgerMenu from "../HamburgerMenuButton/HamburgerMenuButton";
 import NavigationMenu from "../NavigationMenu/NavigationMenu";

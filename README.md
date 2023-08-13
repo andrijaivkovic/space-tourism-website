@@ -43,10 +43,14 @@ Users should be able to:
 
 ![](./technology-page.png)
 
+#### Page not found
+
+![](./404-page.png)
+
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://space-tourism-website-ai.netlify.app/](https://space-tourism-website-ai.netlify.app/)
+- Live Site URL: []()
 
 ## My process
 
