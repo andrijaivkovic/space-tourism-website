@@ -1,0 +1,182 @@
+.destination {
+  @include flex-column;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__main {
+    @include flex-column;
+    align-items: center;
+
+    padding-bottom: 5.8rem;
+
+    @include mediaQuery(tablet) {
+      margin-top: 4rem;
+    }
+
+    @include mediaQuery(desktop) {
+      margin-top: 7.5rem;
+    }
+  }
+
+  &__choice {
+    @include flex-column;
+    align-items: center;
+
+    padding: 0 2.4rem;
+
+    @include mediaQuery(tablet) {
+      padding: 0 12rem;
+    }
+
+    @include mediaQuery(desktop) {
+      @include flex-row;
+      padding: 10rem 16.5rem;
+      padding-bottom: 0;
+
+      gap: 16rem;
+
+      align-items: flex-start;
+    }
+
+    @include mediaQuery(desktop-large) {
+      padding: 10rem 30rem;
+    }
+
+    @include mediaQuery(desktop-xlarge) {
+      padding: 10rem 40rem;
+    }
+  }
+
+  &__choice-header {
+    @include flex-column;
+    align-items: center;
+  }
+
+  &__planet-image {
+    height: 17rem;
+    width: 17rem;
+
+    margin-bottom: 2.6rem;
+
+    @include mediaQuery(tablet) {
+      height: 30rem;
+      width: 30rem;
+
+      margin-bottom: 5.3rem;
+    }
+
+    @include mediaQuery(desktop) {
+      height: 44.5rem;
+      width: 44.5rem;
+
+      margin: unset;
+    }
+  }
+
+  &__choice-info-header {
+    @include flex-column;
+    align-items: center;
+
+    @include mediaQuery(tablet) {
+      flex-direction: column-reverse;
+    }
+
+    @include mediaQuery(desktop) {
+      align-items: flex-start;
+    }
+  }
+
+  &__planets-list {
+    @include flex-row;
+    gap: 2.6rem;
+
+    list-style: none;
+
+    margin-bottom: 2rem;
+  }
+
+  &__planets-list-item {
+    position: relative;
+
+    padding-bottom: 0.8rem;
+
+    z-index: 9;
+
+    &.active p {
+      color: var(--color-100);
+    }
+
+    & p {
+      color: var(--color-200);
+    }
+  }
+
+  &__underline {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: var(--color-100);
+  }
+
+  .divider {
+    width: 97.5%;
+    border: 1px solid #383b4b;
+
+    margin: 3.2rem 0;
+
+    @include mediaQuery(tablet) {
+      margin: 5rem 0 2.8rem 0;
+    }
+  }
+
+  &__choice-info-description {
+    color: var(--color-200);
+    text-align: center;
+
+    height: 12rem;
+
+    @include mediaQuery(tablet) {
+      height: unset;
+    }
+
+    @include mediaQuery(desktop) {
+      text-align: start;
+      height: 11rem;
+    }
+  }
+
+  &__choice-info-footer {
+    @include flex-column;
+    align-items: center;
+
+    gap: 3.2rem;
+
+    @include mediaQuery(tablet) {
+      @include flex-row;
+      justify-content: center;
+      gap: 10rem;
+    }
+
+    @include mediaQuery(desktop) {
+      @include flex-row;
+      justify-content: start;
+      gap: 8rem;
+    }
+
+    & > div {
+      @include flex-column;
+      align-items: center;
+
+      & > p:first-of-type {
+        color: var(--color-200);
+      }
+
+      @include mediaQuery(desktop) {
+        align-items: start;
+      }
+    }
+  }
+}

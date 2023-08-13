@@ -1,0 +1,143 @@
+.home {
+  @include flex-column;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-grow: 1;
+
+  &__main {
+    @include grid;
+
+    padding-bottom: 5.8rem;
+
+    gap: 3.5rem;
+
+    @include mediaQuery(tablet) {
+      padding-top: 10rem;
+      gap: 10rem;
+    }
+
+    @include mediaQuery(desktop) {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+
+      padding: 13rem 16.5rem;
+
+      flex-grow: 1;
+    }
+  }
+
+  &__hero {
+    @include flex-column;
+    align-items: center;
+
+    padding: 2rem 2.4rem;
+
+    @include mediaQuery(desktop) {
+      padding: unset;
+      align-items: flex-start;
+      align-self: flex-end;
+    }
+
+    & > h5 {
+      color: var(--color-200);
+    }
+  }
+
+  &__cta {
+    @include flex-row;
+    @include flex-center;
+
+    justify-self: center;
+
+    background-color: var(--color-100);
+
+    height: 15rem;
+    width: 15rem;
+
+    border-radius: 50%;
+
+    box-shadow: 0px 0px 0px 0px rgba(#fff, 0.2);
+
+    &:hover {
+      box-shadow: 0px 0px 0px 25px rgba(#fff, 0.2);
+
+      scale: 0.95;
+
+      transform-origin: center;
+    }
+
+    // transition: 0.3s cubic-bezier(0.12, 1.01, 0.26, 1);
+    transition: 0.2s ease-in-out;
+
+    @include mediaQuery(tablet) {
+      height: 25rem;
+      width: 25rem;
+
+      box-shadow: 0px 0px 0px 0px rgba(#fff, 0.2);
+
+      &:hover {
+        box-shadow: 0px 0px 0px 50px rgba(#fff, 0.2);
+      }
+    }
+
+    @include mediaQuery(desktop) {
+      align-self: flex-end;
+      justify-self: end;
+
+      height: 25rem;
+      width: 25rem;
+
+      box-shadow: 0px 0px 0px 0px rgba(#fff, 0.2);
+
+      &:hover {
+        box-shadow: 0px 0px 0px 50px rgba(#fff, 0.2);
+      }
+    }
+  }
+
+  &__cta-link {
+    @include flex-row;
+    @include flex-center;
+
+    height: 100%;
+    width: 100%;
+
+    border-radius: 50%;
+
+    z-index: 0;
+
+    text-decoration: none !important;
+  }
+
+  .cta-text {
+    font-family: "Bellefair", sans-serif;
+    font-size: 2rem;
+
+    color: var(--color-300);
+
+    text-transform: uppercase;
+
+    letter-spacing: 1.25px;
+
+    @include mediaQuery(desktop) {
+      font-size: 3.2rem;
+    }
+  }
+
+  &__body {
+    color: var(--color-200);
+    text-align: center;
+
+    max-width: 40ch;
+
+    @include mediaQuery(tablet) {
+      max-width: 44rem;
+    }
+
+    @include mediaQuery(desktop) {
+      text-align: start;
+      max-width: 44rem;
+    }
+  }
+}

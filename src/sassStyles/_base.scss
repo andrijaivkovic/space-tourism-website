@@ -1,0 +1,54 @@
+html {
+  font-family: "Bellefair", sans-serif;
+  font-size: 62.5%;
+
+  overflow-x: hidden;
+
+  background-color: #0b0d17;
+
+  @include mediaQuery(desktop-large) {
+    font-size: 68%;
+  }
+
+  @include mediaQuery(desktop-xlarge) {
+    font-size: 80%;
+  }
+}
+
+#root {
+  @include flex-column;
+
+  width: 100%;
+  min-height: 100dvh;
+}
+
+body {
+  position: relative;
+
+  @include flex-column;
+  align-items: center;
+
+  gap: 2.4rem;
+
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: var(--color-text);
+
+  scroll-behavior: smooth;
+
+  overflow-x: hidden;
+
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+img {
+  color: var(--color-100);
+}
+
+.App {
+  @include flex-column;
+  gap: 2.4rem;
+
+  width: 100%;
+}

@@ -1,0 +1,17 @@
+.hamburger-menu {
+  position: relative;
+  display: block;
+
+  @include flex-row;
+  @include flex-center;
+
+  z-index: 999;
+
+  @include mediaQuery(tablet) {
+    display: none;
+  }
+
+  @include mediaQuery(desktop) {
+    display: none;
+  }
+}

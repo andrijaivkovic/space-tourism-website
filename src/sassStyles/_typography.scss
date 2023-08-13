@@ -1,0 +1,145 @@
+h1,
+h2,
+h3,
+h4,
+p.subheading-1 {
+  font-family: "Bellefair", sans-serif;
+  text-transform: uppercase;
+  color: var(--color-100);
+}
+
+h5,
+p.subheading-2,
+p.navigation-text {
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  color: var(--color-100);
+}
+
+h1 {
+  font-size: 8rem;
+
+  @include mediaQuery(tablet) {
+    font-size: 15rem;
+  }
+
+  @include mediaQuery(desktop) {
+    font-size: 15rem;
+  }
+}
+
+h2 {
+  //dektop: 10rem
+  font-size: 5.6rem;
+
+  @include mediaQuery(tablet) {
+    font-size: 8rem;
+  }
+}
+
+h3 {
+  font-size: 2.4rem;
+  font-weight: 400;
+
+  @include mediaQuery(tablet) {
+    font-size: 4rem;
+  }
+
+  @include mediaQuery(desktop) {
+    font-size: 5.6rem;
+  }
+}
+
+h4 {
+  font-size: 1.6rem;
+  font-weight: 400;
+
+  @include mediaQuery(tablet) {
+    font-size: 2.4rem;
+  }
+
+  @include mediaQuery(desktop) {
+    font-size: 3.2rem;
+  }
+}
+
+h5 {
+  font-weight: 400;
+  font-size: 1.6rem;
+  letter-spacing: 2.7px;
+
+  @include mediaQuery(tablet) {
+    font-size: 2rem;
+  }
+
+  @include mediaQuery(desktop) {
+    font-size: 2.8rem;
+    letter-spacing: 4.75px;
+  }
+
+  &.page-heading {
+    @include flex-row;
+    gap: 1.8rem;
+
+    margin-bottom: 3.2rem;
+
+    & > span {
+      opacity: 0.25;
+    }
+
+    @include mediaQuery(tablet) {
+      align-self: flex-start;
+      margin-bottom: 6rem;
+      margin-left: 4rem;
+    }
+
+    @include mediaQuery(desktop) {
+      align-self: flex-start;
+      margin-bottom: unset;
+      margin-left: 16.5rem;
+    }
+  }
+}
+
+p.subheading-1 {
+  font-size: 2.8rem;
+}
+
+p.subheading-2 {
+  font-size: 1.4rem;
+  letter-spacing: 2.35px;
+
+  @include mediaQuery(tablet) {
+    font-size: 1.6rem;
+    letter-spacing: 2.7px;
+  }
+}
+
+p.navigation-text {
+  font-size: 1.6rem;
+  letter-spacing: 2.7px;
+
+  @include mediaQuery(tablet) {
+    font-size: 1.4rem;
+    letter-spacing: 2.36px;
+  }
+
+  @include mediaQuery(desktop) {
+    font-size: 1.6rem;
+    letter-spacing: 2.7px;
+  }
+}
+
+p {
+  font-family: "Barlow", sans-serif;
+  font-size: 1.5rem;
+  color: var(--color-100);
+
+  @include mediaQuery(tablet) {
+    font-size: 1.6rem;
+  }
+
+  @include mediaQuery(desktop) {
+    font-size: 1.8rem;
+  }
+}
