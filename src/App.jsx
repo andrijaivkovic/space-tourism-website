@@ -22,7 +22,7 @@ const App = () => {
           <Route path="/destination" element={<Destination />} />
           <Route path="/crew" element={<Crew />} />
           <Route path="/technology" element={<Technology />} />
-          <Route path="/*" element={<Navigate to={"/404"} />}></Route>
+          <Route path="*" element={<Navigate to={"/404"} />}></Route>
           <Route path="/404" element={<PageNotFound></PageNotFound>}></Route>
         </Routes>
       </AnimatePresence>
