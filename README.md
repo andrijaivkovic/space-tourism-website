@@ -39,7 +39,7 @@ Users should be able to:
 
 ![](./crew-page.png)
 
-### Technology page
+#### Technology page
 
 ![](./technology-page.png)
 
